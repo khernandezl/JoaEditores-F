@@ -97,6 +97,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   width: 20%;
+  background: image("assets/img/LogoJOA.jpg");
 }
 .rk-logo sup {
   font-size: .5625rem;
@@ -2164,3 +2165,81 @@ body {
 .rk-light-color {
   color: #787878;
 }
+
+/*Modal/*
+
+/* The popup form - hidden by default */
+.modalDialog {
+  /* 
+  position: fixed;
+  bottom: 0;
+  right: 1px;
+  
+   */
+  border: 3px solid #f1f1f1;
+  display: none;
+  position:fixed;
+  top:140px;
+  margin-left: 90vh;  
+  bottom:0;
+  left:0;  
+  z-index: 999999;
+  
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > form {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: rgb(255, 255, 255);
+	
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #c9d1d3; }
