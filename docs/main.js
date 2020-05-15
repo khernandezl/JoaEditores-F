@@ -41,12 +41,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_search_search_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/search/search.component */ "./src/app/pages/search/search.component.ts");
 /* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
 /* harmony import */ var _pages_lanzamientos_lanzamientos_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/lanzamientos/lanzamientos.component */ "./src/app/pages/lanzamientos/lanzamientos.component.ts");
+/* harmony import */ var _pages_producto1_producto1_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/producto1/producto1.component */ "./src/app/pages/producto1/producto1.component.ts");
+/* harmony import */ var _pages_producto2_producto2_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/producto2/producto2.component */ "./src/app/pages/producto2/producto2.component.ts");
+/* harmony import */ var _pages_producto3_producto3_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/producto3/producto3.component */ "./src/app/pages/producto3/producto3.component.ts");
+/* harmony import */ var _pages_producto4_producto4_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/producto4/producto4.component */ "./src/app/pages/producto4/producto4.component.ts");
+/* harmony import */ var _pages_producto5_producto5_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/producto5/producto5.component */ "./src/app/pages/producto5/producto5.component.ts");
+/* harmony import */ var _pages_producto6_producto6_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/producto6/producto6.component */ "./src/app/pages/producto6/producto6.component.ts");
+/* harmony import */ var _pages_producto7_producto7_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/producto7/producto7.component */ "./src/app/pages/producto7/producto7.component.ts");
+/* harmony import */ var _pages_producto8_producto8_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/producto8/producto8.component */ "./src/app/pages/producto8/producto8.component.ts");
+/* harmony import */ var _pages_producto9_producto9_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/producto9/producto9.component */ "./src/app/pages/producto9/producto9.component.ts");
+/* harmony import */ var _pages_producto10_producto10_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/producto10/producto10.component */ "./src/app/pages/producto10/producto10.component.ts");
+/* harmony import */ var _pages_producto11_producto11_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/producto11/producto11.component */ "./src/app/pages/producto11/producto11.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -62,6 +84,17 @@ var app_routes = [
     { path: 'search/:termino', component: _pages_search_search_component__WEBPACK_IMPORTED_MODULE_5__["SearchComponent"] },
     { path: 'contact', component: _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"] },
     { path: 'lanzamientos', component: _pages_lanzamientos_lanzamientos_component__WEBPACK_IMPORTED_MODULE_7__["LanzamientosComponent"] },
+    { path: 'producto1', component: _pages_producto1_producto1_component__WEBPACK_IMPORTED_MODULE_8__["Producto1Component"] },
+    { path: 'producto2', component: _pages_producto2_producto2_component__WEBPACK_IMPORTED_MODULE_9__["Producto2Component"] },
+    { path: 'producto3', component: _pages_producto3_producto3_component__WEBPACK_IMPORTED_MODULE_10__["Producto3Component"] },
+    { path: 'producto4', component: _pages_producto4_producto4_component__WEBPACK_IMPORTED_MODULE_11__["Producto4Component"] },
+    { path: 'producto5', component: _pages_producto5_producto5_component__WEBPACK_IMPORTED_MODULE_12__["Producto5Component"] },
+    { path: 'producto6', component: _pages_producto6_producto6_component__WEBPACK_IMPORTED_MODULE_13__["Producto6Component"] },
+    { path: 'producto7', component: _pages_producto7_producto7_component__WEBPACK_IMPORTED_MODULE_14__["Producto7Component"] },
+    { path: 'producto8', component: _pages_producto8_producto8_component__WEBPACK_IMPORTED_MODULE_15__["Producto8Component"] },
+    { path: 'producto9', component: _pages_producto9_producto9_component__WEBPACK_IMPORTED_MODULE_16__["Producto9Component"] },
+    { path: 'producto10', component: _pages_producto10_producto10_component__WEBPACK_IMPORTED_MODULE_17__["Producto10Component"] },
+    { path: 'producto11', component: _pages_producto11_producto11_component__WEBPACK_IMPORTED_MODULE_18__["Producto11Component"] },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 var AppRoutingModule = /** @class */ (function () {
@@ -175,6 +208,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_search_search_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/search/search.component */ "./src/app/pages/search/search.component.ts");
 /* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
 /* harmony import */ var _pages_lanzamientos_lanzamientos_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/lanzamientos/lanzamientos.component */ "./src/app/pages/lanzamientos/lanzamientos.component.ts");
+/* harmony import */ var _pages_producto1_producto1_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/producto1/producto1.component */ "./src/app/pages/producto1/producto1.component.ts");
+/* harmony import */ var _pages_producto2_producto2_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/producto2/producto2.component */ "./src/app/pages/producto2/producto2.component.ts");
+/* harmony import */ var _pages_producto3_producto3_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/producto3/producto3.component */ "./src/app/pages/producto3/producto3.component.ts");
+/* harmony import */ var _pages_producto4_producto4_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/producto4/producto4.component */ "./src/app/pages/producto4/producto4.component.ts");
+/* harmony import */ var _pages_producto5_producto5_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/producto5/producto5.component */ "./src/app/pages/producto5/producto5.component.ts");
+/* harmony import */ var _pages_producto6_producto6_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/producto6/producto6.component */ "./src/app/pages/producto6/producto6.component.ts");
+/* harmony import */ var _pages_producto7_producto7_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/producto7/producto7.component */ "./src/app/pages/producto7/producto7.component.ts");
+/* harmony import */ var _pages_producto8_producto8_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pages/producto8/producto8.component */ "./src/app/pages/producto8/producto8.component.ts");
+/* harmony import */ var _pages_producto9_producto9_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./pages/producto9/producto9.component */ "./src/app/pages/producto9/producto9.component.ts");
+/* harmony import */ var _pages_producto10_producto10_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pages/producto10/producto10.component */ "./src/app/pages/producto10/producto10.component.ts");
+/* harmony import */ var _pages_producto11_producto11_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./pages/producto11/producto11.component */ "./src/app/pages/producto11/producto11.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -185,6 +229,17 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 // Rutas
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -209,7 +264,18 @@ var AppModule = /** @class */ (function () {
                 _pages_item_item_component__WEBPACK_IMPORTED_MODULE_9__["ItemComponent"],
                 _pages_search_search_component__WEBPACK_IMPORTED_MODULE_10__["SearchComponent"],
                 _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__["ContactComponent"],
-                _pages_lanzamientos_lanzamientos_component__WEBPACK_IMPORTED_MODULE_12__["LanzamientosComponent"]
+                _pages_lanzamientos_lanzamientos_component__WEBPACK_IMPORTED_MODULE_12__["LanzamientosComponent"],
+                _pages_producto1_producto1_component__WEBPACK_IMPORTED_MODULE_13__["Producto1Component"],
+                _pages_producto2_producto2_component__WEBPACK_IMPORTED_MODULE_14__["Producto2Component"],
+                _pages_producto3_producto3_component__WEBPACK_IMPORTED_MODULE_15__["Producto3Component"],
+                _pages_producto4_producto4_component__WEBPACK_IMPORTED_MODULE_16__["Producto4Component"],
+                _pages_producto5_producto5_component__WEBPACK_IMPORTED_MODULE_17__["Producto5Component"],
+                _pages_producto6_producto6_component__WEBPACK_IMPORTED_MODULE_18__["Producto6Component"],
+                _pages_producto7_producto7_component__WEBPACK_IMPORTED_MODULE_19__["Producto7Component"],
+                _pages_producto8_producto8_component__WEBPACK_IMPORTED_MODULE_20__["Producto8Component"],
+                _pages_producto9_producto9_component__WEBPACK_IMPORTED_MODULE_21__["Producto9Component"],
+                _pages_producto10_producto10_component__WEBPACK_IMPORTED_MODULE_22__["Producto10Component"],
+                _pages_producto11_producto11_component__WEBPACK_IMPORTED_MODULE_23__["Producto11Component"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -311,7 +377,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = " \n \n <div class=\"ae-container-fluid ae-container-fluid--inner rk-main\">\n      <div class=\"ae-grid\">\n        <div class=\"ae-grid__item item-lg-6 item-lg--offset-7\">\n          <h4 class=\"ae-u-bolder au-mb-3 conatct__title\">Contactanos</h4>\n          <p class=\"au-mb-4 contact__desc\">Hola <a href=\"#contact-form\">a traves del formulario</a>que se encuentra abajo! <br>Para que podamos ayudarte.</p>\n        </div>\n      </div>\n      <div class=\"ae-grid\">\n        <div class=\"ae-grid__item item-lg-6\">\n          <div id=\"map-container\">\n            <div id=\"map\"></div>\n          </div>\n        </div>\n        <div class=\"ae-grid__item item-lg-6\">\n          <div class=\"ae-grid ae-grid--collapse\">\n            <div class=\"ae-grid__item item-lg-2 au-v-hidden au-lg-v-visible\">\n              <button id=\"map-arrow\" class=\"arrow-button arrow-button--nospace arrow-button--center arrow-button--flip\">\n                <svg>\n                  <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\n                </svg>\n              </button>\n            </div>\n            <div class=\"ae-grid__item item-lg-10 au-xs-ta-center au-lg-ta-left\">\n              <p class=\"au-mb-4 contact__addr\">Bogotá  <br> Dirección<br>-.....-</p>\n              <p> <span class=\"contact__phone\"> <span class=\"rk-light-color\">Telefono  </span> (301) 123-4567</span><br><span class=\"contact__email au-block au-truncate\"> <span class=\"rk-light-color\">Correo &nbsp;&nbsp; </span><a href=\"#0\">joa.airphotos@gmail.com</a></span></p>\n            </div>\n            <!-- <div class=\"contact_spacer au-none au-lg-block\"></div> -->\n          </div>\n          <div class=\"ae-grid ae-grid--collapse\">\n            <div class=\"ae-grid__item item-lg-12\">\n              <form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\n                <input type=\"text\" placeholder=\"* Name\" required>\n                <input type=\"email\" placeholder=\"* Email\" required>\n                <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\n                <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\n                      <svg>\n                        <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\n                      </svg></span></a></p>\n              </form>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <script src=\"https://maps.googleapis.com/maps/api/js\"></script>\n    <script>\n      var pxLat = 40.767812,\n          pxLng = -73.962014;\n      \n      // When the window has finished loading create our google map below\n      var map = google.maps.event.addDomListener(window, 'load', init);\n      \n      function init() {\n          // Basic options for a simple Google Map\n          // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions\n          var mapOptions = {\n              // How zoomed in you want the map to start at (always required)\n              zoom: 15,\n      \n              disableDefaultUI: true,\n              disableDoubleClickZoom: true,\n              scrollwheel: false,\n              // The latitude and longitude to center the map (always required)\n              center: new google.maps.LatLng(pxLat, pxLng), // New York\n      \n              // How you would like to style the map. \n              // This is where you would paste any style found on Snazzy Maps.\n              styles: [{\"featureType\":\"all\",\"elementType\":\"labels.text.fill\",\"stylers\":[{\"saturation\":36},{\"color\":\"#000000\"},{\"lightness\":40}]},{\"featureType\":\"all\",\"elementType\":\"labels.text.stroke\",\"stylers\":[{\"visibility\":\"on\"},{\"color\":\"#000000\"},{\"lightness\":16}]},{\"featureType\":\"all\",\"elementType\":\"labels.icon\",\"stylers\":[{\"visibility\":\"off\"}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":20}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":17},{\"weight\":1.2}]},{\"featureType\":\"landscape\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":20}]},{\"featureType\":\"poi\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":21}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":17}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":29},{\"weight\":0.2}]},{\"featureType\":\"road.arterial\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":18}]},{\"featureType\":\"road.local\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":16}]},{\"featureType\":\"transit\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":19}]},{\"featureType\":\"water\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":17}]}]\n          };\n      \n          // Get the HTML DOM element that will contain your map \n          // We are using a div with id=\"map\" seen below in the <body>\n          var mapElement = document.getElementById('map');\n      \n          // Create the Google Map using our element and options defined above\n          map = new google.maps.Map(mapElement, mapOptions);\n      \n          // Let's also add a marker while we're at it\n          var marker = new google.maps.Marker({\n              icon: {\n                fillColor: \"#f52654\",\n                fillOpacity: 1,\n                strokeWeight: 0,\n                path: \"M15,0C6.7,0,0,6.7,0,15c0,0,0,0.1,0,0.1c0,0.5,0,1.1,0.1,1.8c0.6,5.4,3.7,9.7,6.6,13.8c3.5,4.8,6.8,9.4,6.8,15.9c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5c0-6.5,3.3-11,6.8-15.9c3-4.1,6-8.4,6.6-13.8C30,16.2,30,15.6,30,15C30,6.7,23.3,0,15,0z\",\n                scale: 1\n              },\n              position: new google.maps.LatLng(pxLat, pxLng),\n              map: map,\n              title: 'Pixeden!'\n          });\n      \n          - map.addListener('center_changed', function() {\n          -     window.setTimeout(function() {\n          -       map.panTo(marker.getPosition());\n          -     }, 500);\n          - });\n      }\n      \n      function newLocation(level) {\n      \n         if(map.getZoom() > 15) { map.setZoom(15) } else { map.setZoom(level) }\n      }\n      \n      document.querySelector('#map-arrow').addEventListener('click', function() {\n        newLocation(Math.round(Math.random()*10) + 13);\n      }, false);\n    </script>"
+module.exports = " \r\n \r\n <div class=\"ae-container-fluid ae-container-fluid--inner rk-main\">\r\n      <div class=\"ae-grid\">\r\n        <div class=\"ae-grid__item item-lg-6 item-lg--offset-7\">\r\n          <h4 class=\"ae-u-bolder au-mb-3 conatct__title\">Contactanos</h4>\r\n          <p class=\"au-mb-4 contact__desc\">Hola <a href=\"#contact-form\">a traves del formulario</a>que se encuentra abajo! <br>Para que podamos ayudarte.</p>\r\n        </div>\r\n      </div>\r\n      <div class=\"ae-grid\">\r\n        <div class=\"ae-grid__item item-lg-6\">\r\n          <div id=\"map-container\">\r\n            <div id=\"map\"></div>\r\n          </div>\r\n        </div>\r\n        <div class=\"ae-grid__item item-lg-6\">\r\n          <div class=\"ae-grid ae-grid--collapse\">\r\n            <div class=\"ae-grid__item item-lg-2 au-v-hidden au-lg-v-visible\">\r\n              <button id=\"map-arrow\" class=\"arrow-button arrow-button--nospace arrow-button--center arrow-button--flip\">\r\n                <svg>\r\n                  <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n                </svg>\r\n              </button>\r\n            </div>\r\n            <div class=\"ae-grid__item item-lg-10 au-xs-ta-center au-lg-ta-left\">\r\n              <p class=\"au-mb-4 contact__addr\">Bogotá  <br> Dirección<br>-.....-</p>\r\n              <p> <span class=\"contact__phone\"> <span class=\"rk-light-color\">Telefono  </span> (301) 123-4567</span><br><span class=\"contact__email au-block au-truncate\"> <span class=\"rk-light-color\">Correo &nbsp;&nbsp; </span><a href=\"#0\">joa.airphotos@gmail.com</a></span></p>\r\n            </div>\r\n            <!-- <div class=\"contact_spacer au-none au-lg-block\"></div> -->\r\n          </div>\r\n          <div class=\"ae-grid ae-grid--collapse\">\r\n            <div class=\"ae-grid__item item-lg-12\">\r\n              <form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n                <input type=\"text\" placeholder=\"* Name\" required>\r\n                <input type=\"email\" placeholder=\"* Email\" required>\r\n                <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n                <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n                      <svg>\r\n                        <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n                      </svg></span></a></p>\r\n              </form>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <script src=\"https://maps.googleapis.com/maps/api/js\"></script>\r\n    <script>\r\n      var pxLat = 40.767812,\r\n          pxLng = -73.962014;\r\n      \r\n      // When the window has finished loading create our google map below\r\n      var map = google.maps.event.addDomListener(window, 'load', init);\r\n      \r\n      function init() {\r\n          // Basic options for a simple Google Map\r\n          // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions\r\n          var mapOptions = {\r\n              // How zoomed in you want the map to start at (always required)\r\n              zoom: 15,\r\n      \r\n              disableDefaultUI: true,\r\n              disableDoubleClickZoom: true,\r\n              scrollwheel: false,\r\n              // The latitude and longitude to center the map (always required)\r\n              center: new google.maps.LatLng(pxLat, pxLng), // New York\r\n      \r\n              // How you would like to style the map. \r\n              // This is where you would paste any style found on Snazzy Maps.\r\n              styles: [{\"featureType\":\"all\",\"elementType\":\"labels.text.fill\",\"stylers\":[{\"saturation\":36},{\"color\":\"#000000\"},{\"lightness\":40}]},{\"featureType\":\"all\",\"elementType\":\"labels.text.stroke\",\"stylers\":[{\"visibility\":\"on\"},{\"color\":\"#000000\"},{\"lightness\":16}]},{\"featureType\":\"all\",\"elementType\":\"labels.icon\",\"stylers\":[{\"visibility\":\"off\"}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":20}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":17},{\"weight\":1.2}]},{\"featureType\":\"landscape\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":20}]},{\"featureType\":\"poi\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":21}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":17}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":29},{\"weight\":0.2}]},{\"featureType\":\"road.arterial\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":18}]},{\"featureType\":\"road.local\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":16}]},{\"featureType\":\"transit\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":19}]},{\"featureType\":\"water\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":17}]}]\r\n          };\r\n      \r\n          // Get the HTML DOM element that will contain your map \r\n          // We are using a div with id=\"map\" seen below in the <body>\r\n          var mapElement = document.getElementById('map');\r\n      \r\n          // Create the Google Map using our element and options defined above\r\n          map = new google.maps.Map(mapElement, mapOptions);\r\n      \r\n          // Let's also add a marker while we're at it\r\n          var marker = new google.maps.Marker({\r\n              icon: {\r\n                fillColor: \"#f52654\",\r\n                fillOpacity: 1,\r\n                strokeWeight: 0,\r\n                path: \"M15,0C6.7,0,0,6.7,0,15c0,0,0,0.1,0,0.1c0,0.5,0,1.1,0.1,1.8c0.6,5.4,3.7,9.7,6.6,13.8c3.5,4.8,6.8,9.4,6.8,15.9c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5c0-6.5,3.3-11,6.8-15.9c3-4.1,6-8.4,6.6-13.8C30,16.2,30,15.6,30,15C30,6.7,23.3,0,15,0z\",\r\n                scale: 1\r\n              },\r\n              position: new google.maps.LatLng(pxLat, pxLng),\r\n              map: map,\r\n              title: 'Pixeden!'\r\n          });\r\n      \r\n          - map.addListener('center_changed', function() {\r\n          -     window.setTimeout(function() {\r\n          -       map.panTo(marker.getPosition());\r\n          -     }, 500);\r\n          - });\r\n      }\r\n      \r\n      function newLocation(level) {\r\n      \r\n         if(map.getZoom() > 15) { map.setZoom(15) } else { map.setZoom(level) }\r\n      }\r\n      \r\n      document.querySelector('#map-arrow').addEventListener('click', function() {\r\n        newLocation(Math.round(Math.random()*10) + 13);\r\n      }, false);\r\n    </script>"
 
 /***/ }),
 
@@ -517,7 +583,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<section class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio\">\n  \n  <!-- 1 -->\n  <div align=\"center\" *ngIf=\"productosService.cargando\">\n    <h2>Cargando</h2>\n\n    <div class=\"loader loader--style1\" title=\"0\">\n        <svg version=\"1.1\" id=\"loader-1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n        width=\"40px\" height=\"40px\" viewBox=\"0 0 40 40\" enable-background=\"new 0 0 40 40\" xml:space=\"preserve\">\n        <path opacity=\"0.2\" fill=\"#000\" d=\"M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946\n          s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634\n          c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z\"/>\n        <path fill=\"#000\" d=\"M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0\n          C22.32,8.481,24.301,9.057,26.013,10.047z\">\n          <animateTransform attributeType=\"xml\"\n            attributeName=\"transform\"\n            type=\"rotate\"\n            from=\"0 20 20\"\n            to=\"360 20 20\"\n            dur=\"0.5s\"\n            repeatCount=\"indefinite\"/>\n          </path>\n        </svg>\n    </div>\n    \n    <p>\n      Espere por favor\n    </p>\n\n  </div>\n\n  \n  <div *ngIf=\"!productosService.cargando\" \n      class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\n    \n    <a *ngFor=\"let producto of productosService.productos\" \n        [routerLink]=\"['/item', producto.cod ]\" class=\"animated fadeIn rk-item ae-masonry__item\">\n      <img src=\"assets/productos/{{ producto.url }}.jpg\" alt=\"\">\n      <div [routerLink]=\"['/item', producto.cod ]\" class=\"item-meta\">\n        <h2>{{ producto.titulo }}</h2>\n        <p>{{ producto.categoria }}</p>\n      </div>\n    </a>\n      \n  </div>\n</section>\n"
+module.exports = "\r\n<section class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio\">\r\n  \r\n  <!-- 1 -->\r\n  <div align=\"center\" *ngIf=\"productosService.cargando\">\r\n    <h2>Cargando</h2>\r\n\r\n    <div class=\"loader loader--style1\" title=\"0\">\r\n        <svg version=\"1.1\" id=\"loader-1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n        width=\"40px\" height=\"40px\" viewBox=\"0 0 40 40\" enable-background=\"new 0 0 40 40\" xml:space=\"preserve\">\r\n        <path opacity=\"0.2\" fill=\"#000\" d=\"M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946\r\n          s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634\r\n          c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z\"/>\r\n        <path fill=\"#000\" d=\"M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0\r\n          C22.32,8.481,24.301,9.057,26.013,10.047z\">\r\n          <animateTransform attributeType=\"xml\"\r\n            attributeName=\"transform\"\r\n            type=\"rotate\"\r\n            from=\"0 20 20\"\r\n            to=\"360 20 20\"\r\n            dur=\"0.5s\"\r\n            repeatCount=\"indefinite\"/>\r\n          </path>\r\n        </svg>\r\n    </div>\r\n    \r\n    <p>\r\n      Espere por favor\r\n    </p>\r\n\r\n  </div>\r\n\r\n  \r\n  <!-- <div *ngIf=\"!productosService.cargando\" \r\n      class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n    \r\n    <a *ngFor=\"let producto of productosService.productos\" \r\n        [routerLink]=\"['/item', producto.cod ]\" class=\"animated fadeIn rk-item ae-masonry__item\">\r\n      <img src=\"assets/productos/{{ producto.url }}.jpg\" alt=\"\">\r\n      <div [routerLink]=\"['/item', producto.cod ]\" class=\"item-meta\">\r\n        <h2>{{ producto.titulo }}</h2>\r\n        <p>{{ producto.categoria }}</p>\r\n      </div>\r\n    </a>\r\n      \r\n  </div> -->\r\n\r\n\r\n  \r\n<!-- CATEGORIA N°1 -->\r\n\r\n<div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        \r\n  <h4 class=\"ae-u-bolder\">Colombia Mágica</h4>\r\n            \r\n</div> \r\n\r\n\r\n\r\n<div class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  <div>\r\n    <a routerLink=\"/producto1\" class=\"animated fadeIn rk-item ae-masonry__item\">\r\n      <img src=\"assets/productos/project-1.jpg\" alt=\"\">\r\n      <div class=\"item-meta\">\r\n        <h2>VILLA DE LEYVA, Eccehomo, La Candelaria, Colombia Mágica</h2>\r\n        <p>Formato apaisado, 21 x 12 cm. 96 pág. a color. (300 g.)</p>\r\n      </div>\r\n    </a>\r\n  </div>\r\n  \r\n  <div>\r\n    \r\n  \r\n      <a routerLink=\"/producto2\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n        <img src=\"assets/productos/project-2.jpg\" alt=\"\">\r\n        <div  class=\"item-meta\">\r\n          <h2>SEAFLOWER, Colombia Mágica\r\n          </h2>\r\n          <p>formato apaisado, 21 x 12 cm. 96 pág. a color. (300 g.)\r\n          </p>\r\n        </div>\r\n      </a>\r\n        \r\n     \r\n  </div>\r\n  <div>\r\n    \r\n  \r\n      <a  \r\n      routerLink=\"/producto3\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n        <img src=\"assets/productos/project-3.jpg\" alt=\"\">\r\n        <div  class=\"item-meta\">\r\n          <h2>CARTAGENA DE INDIAS , centro histórico- Getsemaní, Colombia mágica\r\n          </h2>\r\n          <p>Formato apaisado, 21 x 12 cm. 112 pág. a color. (330 g.)\r\n          </p>\r\n        </div>\r\n      </a>\r\n        \r\n    \r\n  </div>\r\n  \r\n</div>  \r\n\r\n\r\n<!-- <div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  \r\n  <a routerLink=\"/producto2\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-2.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>SEAFLOWER, Colombia Mágica\r\n      </h2>\r\n      <p>formato apaisado, 21 x 12 cm. 96 pág. a color. (300 g.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n    \r\n</div>   -->\r\n\r\n<!-- <div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  \r\n  <a  \r\n  routerLink=\"/producto3\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-3.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>CARTAGENA DE INDIAS , centro histórico- Getsemaní, Colombia mágica\r\n      </h2>\r\n      <p>Formato apaisado, 21 x 12 cm. 112 pág. a color. (330 g.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n    \r\n</div>   -->\r\n\r\n\r\n\r\n<!-- CATEGORIA N°2 -->\r\n\r\n\r\n<div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n      \r\n  <h4 class=\"ae-u-bolder\">Aéreas</h4>\r\n            \r\n</div> \r\n\r\n\r\n\r\n<div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n <div>\r\n  <a  \r\n  routerLink=\"/producto5\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-5.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>MEDELLÍN DESDE EL CIELO\r\n      </h2>\r\n      <p>Formato apaisado, 30 x 26 cm. 216 pág. a color. (1,8 kg.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n </div> \r\n  \r\n <div>\r\n  <a  \r\n  routerLink=\"/producto6\" class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-6.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>AÉROPLANES CAUDRON FRÈRES 1,2,3,4\r\n      </h2>\r\n      <p>Formato vertical, 16,5 x 24 cm, 32 pág. cada uno con mas de 34 fotos de época.\r\n      </p>\r\n    </div>\r\n  </a>\r\n </div>\r\n\r\n <div>\r\n  <a  \r\n  routerLink=\"/producto7\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-7.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>COLOMBIA DE ULTRAMAR DESDE EL CIELO\r\n        San Andrés, Providencia y Santa Catalina</h2>\r\n      <p>Formato apaisado, 27 x 25 cm. 190 pág. a color. (1,5 kg.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n </div>\r\n\r\n <div>\r\n  <a  \r\n  routerLink=\"/producto8\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-8.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>BOGOTA A VUELO DE CONDOR\r\n      </h2>\r\n      <p>Formato apaisado, 34 x 28 cm. 134 pág. a color. (1,5 kg.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n </div>\r\n    \r\n</div>  \r\n\r\n<!-- <div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  \r\n  <a  \r\n  routerLink=\"/producto6\" class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-6.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>AÉROPLANES CAUDRON FRÈRES 1,2,3,4\r\n      </h2>\r\n      <p>Formato vertical, 16,5 x 24 cm, 32 pág. cada uno con mas de 34 fotos de época.\r\n      </p>\r\n    </div>\r\n  </a>\r\n    \r\n</div>   -->\r\n\r\n<!-- <div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  \r\n  <a  \r\n  routerLink=\"/producto7\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-7.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>COLOMBIA DE ULTRAMAR DESDE EL CIELO\r\n        San Andrés, Providencia y Santa Catalina</h2>\r\n      <p>Formato apaisado, 27 x 25 cm. 190 pág. a color. (1,5 kg.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n    \r\n</div>   -->\r\n\r\n<!-- <div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  \r\n  <a  \r\n  routerLink=\"/producto8\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-8.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>BOGOTA A VUELO DE CONDOR\r\n      </h2>\r\n      <p>Formato apaisado, 34 x 28 cm. 134 pág. a color. (1,5 kg.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n    \r\n</div>   -->\r\n\r\n<!-- CATEGORIA N°3 -->\r\n\r\n<div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n      \r\n  <h4 class=\"ae-u-bolder\">Otras categorias</h4>\r\n            \r\n</div> \r\n\r\n\r\n\r\n<div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  \r\n  <a  \r\n  routerLink=\"/producto9\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-9.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>SABORES Y COLORES, recetas prácticas para toda ocasión\r\n      </h2>\r\n      <p>Formato cuadrado, 22,5 x 22,5 cm. 112 pág. a color. (700 g.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n\r\n  <div>\r\n    <a  \r\n    routerLink=\"/producto10\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n      <img src=\"assets/productos/project-10.jpg\" alt=\"\">\r\n      <div  class=\"item-meta\">\r\n        <h2>LEONIDAS LARA E HIJOS, Raíces que dejaron huella\r\n        </h2>\r\n        <p>Formato vertical 22 x 28 cm, 84 pág. A color. (640g.)\r\n        </p>\r\n      </div>\r\n    </a>\r\n  </div>\r\n    \r\n  <div>\r\n    <a  \r\n    routerLink=\"/producto11\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n      <img src=\"assets/productos/project-11.jpg\" alt=\"\">\r\n      <div  class=\"item-meta\">\r\n        <h2>HOY COCINO YO, recetas prácticas para toda ocasión\r\n        </h2>\r\n        <p>formato cuadrado, 22,5 x 22,5 cm. 112 pág. a color. (700 g.)\r\n        </p>\r\n      </div>\r\n    </a>\r\n  </div>\r\n\r\n  <div>\r\n    <a  \r\n    routerLink=\"/producto4\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n      <img src=\"assets/productos/project-4.jpg\" alt=\"\">\r\n      <div  class=\"item-meta\">\r\n        <h2>EL TRICOLOR DE LA LIBERTAD\r\n        </h2>\r\n        <p>Formato apaisado, 26x19 cm, 96 pág. a color. (600 g.)\r\n        </p>\r\n      </div>\r\n    </a>\r\n  </div>\r\n</div>  \r\n\r\n<!-- <div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  \r\n  <a  \r\n  routerLink=\"/producto10\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-10.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>LEONIDAS LARA E HIJOS, Raíces que dejaron huella\r\n      </h2>\r\n      <p>Formato vertical 22 x 28 cm, 84 pág. A color. (640g.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n    \r\n</div>   -->\r\n\r\n<!-- <div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  \r\n  <a  \r\n  routerLink=\"/producto11\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-11.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>HOY COCINO YO, recetas prácticas para toda ocasión\r\n      </h2>\r\n      <p>formato cuadrado, 22,5 x 22,5 cm. 112 pág. a color. (700 g.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n    \r\n</div>   -->\r\n\r\n\r\n<!-- <div  class=\"ae-masonry ae-masonry-md-2 ae-masonry-xl-4\">\r\n  \r\n  <a  \r\n  routerLink=\"/producto4\"  class=\"animated fadeIn rk-item ae-masonry__item\">\r\n    <img src=\"assets/productos/project-4.jpg\" alt=\"\">\r\n    <div  class=\"item-meta\">\r\n      <h2>EL TRICOLOR DE LA LIBERTAD\r\n      </h2>\r\n      <p>Formato apaisado, 26x19 cm, 96 pág. a color. (600 g.)\r\n      </p>\r\n    </div>\r\n  </a>\r\n    \r\n</div>   -->\r\n\r\n\r\n\r\n</section>\r\n"
 
 /***/ }),
 
@@ -559,6 +625,699 @@ var PortafolioComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_services_productos_service__WEBPACK_IMPORTED_MODULE_1__["ProductosService"]])
     ], PortafolioComponent);
     return PortafolioComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto1/producto1.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/producto1/producto1.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto1/producto1.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto1/producto1.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n  \r\n  \r\n  \r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">VILLA DE LEYVA, Eccehomo, La Candelaria, Colombia Mágica</h2>\r\n  </div>\r\n\r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">VILLA DE LEYVA, Eccehomo, La Candelaria, Colombia Mágica\r\n        </h4>\r\n        <p class=\"ae-eta\">Recorrido casual por las calles de esta hermosa e histórica villa colonial y sus alrededores, que engalanan la pintoresca región de Boyacá.\r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-1/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto1/producto1.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/producto1/producto1.component.ts ***!
+  \********************************************************/
+/*! exports provided: Producto1Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto1Component", function() { return Producto1Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto1Component = /** @class */ (function () {
+    function Producto1Component() {
+    }
+    Producto1Component.prototype.ngOnInit = function () {
+    };
+    Producto1Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto1',
+            template: __webpack_require__(/*! ./producto1.component.html */ "./src/app/pages/producto1/producto1.component.html"),
+            styles: [__webpack_require__(/*! ./producto1.component.css */ "./src/app/pages/producto1/producto1.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto1Component);
+    return Producto1Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto10/producto10.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/pages/producto10/producto10.component.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto10/producto10.component.html":
+/*!************************************************************!*\
+  !*** ./src/app/pages/producto10/producto10.component.html ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n\r\n\r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">LEONIDAS LARA E HIJOS, Raíces que dejaron huella</h2>\r\n  </div>\r\n  \r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">LEONIDAS LARA E HIJOS, Raíces que dejaron huella\r\n        </h4>\r\n        <p class=\"ae-eta\">Recuento histórico de la vida y obra de un hombre que hizo patria en una Colombia llena de esperanza.\r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-10/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>\r\n\r\n"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto10/producto10.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto10/producto10.component.ts ***!
+  \**********************************************************/
+/*! exports provided: Producto10Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto10Component", function() { return Producto10Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto10Component = /** @class */ (function () {
+    function Producto10Component() {
+    }
+    Producto10Component.prototype.ngOnInit = function () {
+    };
+    Producto10Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto10',
+            template: __webpack_require__(/*! ./producto10.component.html */ "./src/app/pages/producto10/producto10.component.html"),
+            styles: [__webpack_require__(/*! ./producto10.component.css */ "./src/app/pages/producto10/producto10.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto10Component);
+    return Producto10Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto11/producto11.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/pages/producto11/producto11.component.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto11/producto11.component.html":
+/*!************************************************************!*\
+  !*** ./src/app/pages/producto11/producto11.component.html ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    \r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n\r\n\r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">HOY COCINO YO, recetas prácticas para toda ocasión</h2>\r\n  </div>\r\n\r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">HOY COCINO YO, recetas prácticas para toda ocasión\r\n        </h4>\r\n        <p class=\"ae-eta\">La cocina es amor! 75 recetas prácticas, fáciles y deliciosas.\r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-11/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto11/producto11.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto11/producto11.component.ts ***!
+  \**********************************************************/
+/*! exports provided: Producto11Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto11Component", function() { return Producto11Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto11Component = /** @class */ (function () {
+    function Producto11Component() {
+    }
+    Producto11Component.prototype.ngOnInit = function () {
+    };
+    Producto11Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto11',
+            template: __webpack_require__(/*! ./producto11.component.html */ "./src/app/pages/producto11/producto11.component.html"),
+            styles: [__webpack_require__(/*! ./producto11.component.css */ "./src/app/pages/producto11/producto11.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto11Component);
+    return Producto11Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto2/producto2.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/producto2/producto2.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto2/producto2.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto2/producto2.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n  \r\n\r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">SEAFLOWER, Colombia Mágica</h2>\r\n  </div>\r\n\r\n\r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">SEAFLOWER, Colombia Mágica</h4>\r\n        <p class=\"ae-eta\">Seaflower es la reserva de biosfera declarada Patrimonio de la Humanidad por la UNESCO, ubicada en el Archipiélago de San Andrés, Providencia y Santa Catalina,  departamento colombiano de la región caribe.\r\n\r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-2/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto2/producto2.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/producto2/producto2.component.ts ***!
+  \********************************************************/
+/*! exports provided: Producto2Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto2Component", function() { return Producto2Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto2Component = /** @class */ (function () {
+    function Producto2Component() {
+    }
+    Producto2Component.prototype.ngOnInit = function () {
+    };
+    Producto2Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto2',
+            template: __webpack_require__(/*! ./producto2.component.html */ "./src/app/pages/producto2/producto2.component.html"),
+            styles: [__webpack_require__(/*! ./producto2.component.css */ "./src/app/pages/producto2/producto2.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto2Component);
+    return Producto2Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto3/producto3.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/producto3/producto3.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto3/producto3.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto3/producto3.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n  \r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">CARTAGENA DE INDIAS , centro histórico- Getsemaní, Colombia mágica</h2>\r\n  </div>\r\n\r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">CARTAGENA DE INDIAS , centro histórico- Getsemaní, Colombia mágica\r\n        </h4>\r\n        <p class=\"ae-eta\">Recorrido casual por las calles de este hermoso e histórico sector colonial amurallado, de esta ciudad vibrante del caribe colombiano.\r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-3/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto3/producto3.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/producto3/producto3.component.ts ***!
+  \********************************************************/
+/*! exports provided: Producto3Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto3Component", function() { return Producto3Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto3Component = /** @class */ (function () {
+    function Producto3Component() {
+    }
+    Producto3Component.prototype.ngOnInit = function () {
+    };
+    Producto3Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto3',
+            template: __webpack_require__(/*! ./producto3.component.html */ "./src/app/pages/producto3/producto3.component.html"),
+            styles: [__webpack_require__(/*! ./producto3.component.css */ "./src/app/pages/producto3/producto3.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto3Component);
+    return Producto3Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto4/producto4.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/producto4/producto4.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto4/producto4.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto4/producto4.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    \r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n\r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">EL TRICOLOR DE LA LIBERTAD</h2>\r\n  </div>\r\n  \r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">EL TRICOLOR DE LA LIBERTAD\r\n        </h4>\r\n        <p class=\"ae-eta\">La historia del origen de la bandera colombiana, narrada en ilustraciones artísticas, destacando los factores geopolíticos que llevaron a su creación . \r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-4/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto4/producto4.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/producto4/producto4.component.ts ***!
+  \********************************************************/
+/*! exports provided: Producto4Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto4Component", function() { return Producto4Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto4Component = /** @class */ (function () {
+    function Producto4Component() {
+    }
+    Producto4Component.prototype.ngOnInit = function () {
+    };
+    Producto4Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto4',
+            template: __webpack_require__(/*! ./producto4.component.html */ "./src/app/pages/producto4/producto4.component.html"),
+            styles: [__webpack_require__(/*! ./producto4.component.css */ "./src/app/pages/producto4/producto4.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto4Component);
+    return Producto4Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto5/producto5.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/producto5/producto5.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto5/producto5.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto5/producto5.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    \r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n  \r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">MEDELLÍN DESDE EL CIELO</h2>\r\n  </div>\r\n\r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">MEDELLÍN DESDE EL CIELO\r\n        </h4>\r\n        <p class=\"ae-eta\">Descripción detallada en imágenes aéreas de esta hermosa ciudad colombiana.\r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-5/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto5/producto5.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/producto5/producto5.component.ts ***!
+  \********************************************************/
+/*! exports provided: Producto5Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto5Component", function() { return Producto5Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto5Component = /** @class */ (function () {
+    function Producto5Component() {
+    }
+    Producto5Component.prototype.ngOnInit = function () {
+    };
+    Producto5Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto5',
+            template: __webpack_require__(/*! ./producto5.component.html */ "./src/app/pages/producto5/producto5.component.html"),
+            styles: [__webpack_require__(/*! ./producto5.component.css */ "./src/app/pages/producto5/producto5.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto5Component);
+    return Producto5Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto6/producto6.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/producto6/producto6.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto6/producto6.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto6/producto6.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n  \r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">AÉROPLANES CAUDRON FRÈRES 1,2,3,4</h2>\r\n  </div>\r\n\r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">AÉROPLANES CAUDRON FRÈRES 1,2,3,4\r\n        </h4>\r\n        <p class=\"ae-eta\">cuadernillos sobre la historia de los hermanos Caudron, franceses constructores de aviones, quienes diseñaron más de 200 aviones que volaron alrededor del mundo.\r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-6/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto6/producto6.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/producto6/producto6.component.ts ***!
+  \********************************************************/
+/*! exports provided: Producto6Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto6Component", function() { return Producto6Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto6Component = /** @class */ (function () {
+    function Producto6Component() {
+    }
+    Producto6Component.prototype.ngOnInit = function () {
+    };
+    Producto6Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto6',
+            template: __webpack_require__(/*! ./producto6.component.html */ "./src/app/pages/producto6/producto6.component.html"),
+            styles: [__webpack_require__(/*! ./producto6.component.css */ "./src/app/pages/producto6/producto6.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto6Component);
+    return Producto6Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto7/producto7.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/producto7/producto7.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto7/producto7.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto7/producto7.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    \r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n  \r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">COLOMBIA DE ULTRAMAR DESDE EL CIELO\r\n      San Andrés, Providencia y Santa Catalina</h2>\r\n  </div>\r\n\r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">COLOMBIA DE ULTRAMAR DESDE EL CIELO\r\n          San Andrés, Providencia y Santa Catalina\r\n          </h4>\r\n        <p class=\"ae-eta\">Un «tour aéreo» al rededor de estas hermosas islas colombianas.\r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-7/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto7/producto7.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/producto7/producto7.component.ts ***!
+  \********************************************************/
+/*! exports provided: Producto7Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto7Component", function() { return Producto7Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto7Component = /** @class */ (function () {
+    function Producto7Component() {
+    }
+    Producto7Component.prototype.ngOnInit = function () {
+    };
+    Producto7Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto7',
+            template: __webpack_require__(/*! ./producto7.component.html */ "./src/app/pages/producto7/producto7.component.html"),
+            styles: [__webpack_require__(/*! ./producto7.component.css */ "./src/app/pages/producto7/producto7.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto7Component);
+    return Producto7Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto8/producto8.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/producto8/producto8.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto8/producto8.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto8/producto8.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">BOGOTA A VUELO DE CONDOR</h2>\r\n  </div>\r\n\r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">BOGOTA A VUELO DE CONDOR\r\n        </h4>\r\n        <p class=\"ae-eta\">Recuento de Bogotá en imágenes aéreas que describen en detalle calles y barrios de la capital Colombiana.\t\r\n        </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-8/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto8/producto8.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/producto8/producto8.component.ts ***!
+  \********************************************************/
+/*! exports provided: Producto8Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto8Component", function() { return Producto8Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto8Component = /** @class */ (function () {
+    function Producto8Component() {
+    }
+    Producto8Component.prototype.ngOnInit = function () {
+    };
+    Producto8Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto8',
+            template: __webpack_require__(/*! ./producto8.component.html */ "./src/app/pages/producto8/producto8.component.html"),
+            styles: [__webpack_require__(/*! ./producto8.component.css */ "./src/app/pages/producto8/producto8.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto8Component);
+    return Producto8Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/producto9/producto9.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/producto9/producto9.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/pages/producto9/producto9.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/producto9/producto9.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"ae-container-fluid\">\r\n  <div class=\"ae-grid ae-grid--collapse rk-portfolio-info \">\r\n    <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n      <h2 class=\"rk-portfolio-inner-title \"></h2>\r\n    </div>\r\n    <div class=\"ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details\">\r\n        \r\n      <p class=\"au-xs-ta-right au-pt-4 group-buttons\">\r\n        <a onclick=\"openForm()\" class=\"arrow-button arrow-button--right arrow-button--out\">\r\n          Comprar\r\n        </a>          \r\n      </p>        \r\n      </div>\r\n    </div>\r\n  </div>  \r\n\r\n<div class=\"modalDialog\" id=\"myForm\">  \r\n<form id=\"contact-form\" action=\"#0\" class=\"ae-form--full\">\r\n  \r\n  <input type=\"text\" placeholder=\"* Name\" required>\r\n  <input type=\"email\" placeholder=\"* Email\" required>\r\n  <textarea placeholder=\"Message ...\" cols=\"30\" rows=\"4\"></textarea>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"><a href=\"#0\" class=\"arrow-button arrow-button--right arrow-button--out\">Enviar<span class=\"arrow-cont\">\r\n        <svg>\r\n          <use xlink:href=\"assets/img/symbols.svg#arrow\"></use>\r\n        </svg></span></a></p>\r\n  <!--Cerrar Modal-->\r\n  <a href=\"#close\" title=\"Close\" class=\"close\">X</a>\r\n  <p class=\"au-xs-ta-right au-pt-4 group-buttons\"></p>\r\n</form>\r\n</div>\r\n\r\n  <div class=\"ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left\">\r\n    <h2 class=\"rk-portfolio-inner-title \">SABORES Y COLORES, recetas prácticas para toda ocasión</h2>\r\n  </div>\r\n  \r\n  <div class=\"ae-container-fluid ae-container-fluid--inner rk-portfolio--inner\">\r\n    <div class=\"ae-grid ae-grid--collapse au-xs-ptp-1\">\r\n      <div class=\"ae-grid__item item-lg-5 au-lg-ptp-1\">\r\n        <h4 class=\"ae-u-bolder\">SABORES Y COLORES, recetas prácticas para toda ocasión\r\n        </h4>\r\n        <p class=\"ae-eta\">70 recetas para sacarle el mejor provecho a las especias de El Rey,\r\n          de tradición en los hogares colombianos.\r\n          </p>        \r\n      </div>\r\n      <div class=\"ae-grid__item item-lg-6 item-lg--offset-1\">\r\n        <img src=\"assets/productos/prod-9/pic-1.jpg\" alt=\"Urku Portfolio\">\r\n      </div>\r\n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/pages/producto9/producto9.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/producto9/producto9.component.ts ***!
+  \********************************************************/
+/*! exports provided: Producto9Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Producto9Component", function() { return Producto9Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Producto9Component = /** @class */ (function () {
+    function Producto9Component() {
+    }
+    Producto9Component.prototype.ngOnInit = function () {
+    };
+    Producto9Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-producto9',
+            template: __webpack_require__(/*! ./producto9.component.html */ "./src/app/pages/producto9/producto9.component.html"),
+            styles: [__webpack_require__(/*! ./producto9.component.css */ "./src/app/pages/producto9/producto9.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], Producto9Component);
+    return Producto9Component;
 }());
 
 
@@ -876,7 +1635,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"ae-container-fluid ae-container-fluid--full rk-header \">\n    <input type=\"checkbox\" id=\"mobile-menu\" class=\"rk-mobile-menu\">\n    <label for=\"mobile-menu\">\n      <svg>\n        <use xlink:href=\"assets/img/symbols.svg#bar\"></use>\n      </svg>\n      <svg>\n        <use xlink:href=\"assets/img/symbols.svg#bar\"></use>\n      </svg>\n      <svg>\n        <use xlink:href=\"assets/img/symbols.svg#bar\"></use>\n      </svg>\n    </label>\n    <div class=\"ae-container-fluid rk-topbar\">\n      <h1 class=\"rk-logo\">\n        <img width=\"80px\" src=\"assets/img/LogoJOA.jpg\">\n        <a routerLink=\"home\">{{ _servicio.info.titulo }}</a>\n      </h1>\n      <nav class=\"rk-navigation\">\n        <ul class=\"rk-menu\">\n          <li routerLinkActive=\"active\"  class=\"rk-menu__item\">\n            <a routerLink=\"home\" class=\"rk-menu__link\">Inicio</a>\n          </li>\n\n          <li routerLinkActive=\"active\" class=\"rk-menu__item\">\n            <a routerLink=\"about\" class=\"rk-menu__link\">Sobre Nosotros</a>\n          </li>\n\n          <li routerLinkActive=\"active\"  class=\"rk-menu__item\">\n            <a routerLink=\"lanzamientos\" class=\"rk-menu__link\">Nuevos Lanzamientos</a>\n          </li>\n          <li routerLinkActive=\"active\"  class=\"rk-menu__item\">\n            <a routerLink=\"contact\" class=\"rk-menu__link\">Contacto</a>\n          </li>\n\n        </ul>\n\n        <div class=\"rk-search\">\n          <input type=\"text\"\n                 (keyup.enter)=\"buscarProducto( txtBuscar.value )\"\n                 placeholder=\"Buscar...\"\n                 id=\"urku-search\"\n                 class=\"rk-search-field\"\n                 #txtBuscar>\n\n          <label for=\"urku-search\">\n            <svg>\n              <use xlink:href=\"assets/img/symbols.svg#icon-search\"></use>\n            </svg>\n          </label>\n        </div>\n\n        \n      </nav>\n    </div>\n  </header>"
+module.exports = "<header class=\"ae-container-fluid ae-container-fluid--full rk-header \">\r\n    <input type=\"checkbox\" id=\"mobile-menu\" class=\"rk-mobile-menu\">\r\n    <label for=\"mobile-menu\">\r\n      <svg>\r\n        <use xlink:href=\"assets/img/symbols.svg#bar\"></use>\r\n      </svg>\r\n      <svg>\r\n        <use xlink:href=\"assets/img/symbols.svg#bar\"></use>\r\n      </svg>\r\n      <svg>\r\n        <use xlink:href=\"assets/img/symbols.svg#bar\"></use>\r\n      </svg>\r\n    </label>\r\n    <div class=\"ae-container-fluid rk-topbar\">\r\n      <h1 class=\"rk-logo\">\r\n        <img width=\"80px\" src=\"assets/img/LogoJOA.jpg\">\r\n        <a routerLink=\"home\">{{ _servicio.info.titulo }}</a>\r\n      </h1>\r\n      <nav class=\"rk-navigation\">\r\n        <ul class=\"rk-menu\">\r\n          <li routerLinkActive=\"active\"  class=\"rk-menu__item\">\r\n            <a routerLink=\"home\" class=\"rk-menu__link\">Inicio</a>\r\n          </li>\r\n\r\n          <li routerLinkActive=\"active\" class=\"rk-menu__item\">\r\n            <a routerLink=\"about\" class=\"rk-menu__link\">Sobre Nosotros</a>\r\n          </li>\r\n\r\n          <li routerLinkActive=\"active\"  class=\"rk-menu__item\">\r\n            <a routerLink=\"lanzamientos\" class=\"rk-menu__link\">Proximos Lanzamientos</a>\r\n          </li>\r\n          <li routerLinkActive=\"active\"  class=\"rk-menu__item\">\r\n            <a routerLink=\"contact\" class=\"rk-menu__link\">Contacto</a>\r\n          </li>\r\n\r\n        </ul>\r\n\r\n        <div class=\"rk-search\">\r\n          <input type=\"text\"\r\n                 (keyup.enter)=\"buscarProducto( txtBuscar.value )\"\r\n                 placeholder=\"Buscar...\"\r\n                 id=\"urku-search\"\r\n                 class=\"rk-search-field\"\r\n                 #txtBuscar>\r\n\r\n          <label for=\"urku-search\">\r\n            <svg>\r\n              <use xlink:href=\"assets/img/symbols.svg#icon-search\"></use>\r\n            </svg>\r\n          </label>\r\n        </div>\r\n\r\n        \r\n      </nav>\r\n    </div>\r\n  </header>"
 
 /***/ }),
 
