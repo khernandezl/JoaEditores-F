@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* SVG Animation */\nsvg path,\nsvg rect{\n  fill: black;\n}\n/* Animaciones */\n.animated {\n    -webkit-animation-duration: 0.6s;\n    animation-duration: 0.6s;\n    -webkit-animation-fill-mode: both;\n    animation-fill-mode: both;\n  }\n@media (prefers-reduced-motion) {\n    .animated {\n      -webkit-animation: unset !important;\n      animation: unset !important;\n      transition: none !important;\n    }\n  }\n@-webkit-keyframes fadeIn {\n    from {\n      opacity: 0;\n    }\n  \n    to {\n      opacity: 1;\n    }\n  }\n@keyframes fadeIn {\nfrom {\n    opacity: 0;\n}\n\nto {\n    opacity: 1;\n}\n}\n.fadeIn {\n-webkit-animation-name: fadeIn;\nanimation-name: fadeIn;\n}"
+module.exports = "/* SVG Animation */\r\nsvg path,\r\nsvg rect{\r\n  fill: black;\r\n}\r\n/* Animaciones */\r\n.animated {\r\n    -webkit-animation-duration: 0.6s;\r\n    animation-duration: 0.6s;\r\n    -webkit-animation-fill-mode: both;\r\n    animation-fill-mode: both;\r\n  }\r\n@media (prefers-reduced-motion) {\r\n    .animated {\r\n      -webkit-animation: unset !important;\r\n      animation: unset !important;\r\n      transition: none !important;\r\n    }\r\n  }\r\n@-webkit-keyframes fadeIn {\r\n    from {\r\n      opacity: 0;\r\n    }\r\n  \r\n    to {\r\n      opacity: 1;\r\n    }\r\n  }\r\n@keyframes fadeIn {\r\nfrom {\r\n    opacity: 0;\r\n}\r\n\r\nto {\r\n    opacity: 1;\r\n}\r\n}\r\n.fadeIn {\r\n-webkit-animation-name: fadeIn;\r\nanimation-name: fadeIn;\r\n}"
 
 /***/ }),
 
@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Katherine\Documents\JoaEditores-F\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\Admin\Documents\JoaEditores-F\src\styles.css */"./src/styles.css");
 
 
 /***/ })
