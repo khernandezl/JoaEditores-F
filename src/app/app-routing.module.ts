@@ -18,6 +18,7 @@ import { Producto8Component } from './pages/producto8/producto8.component';
 import { Producto9Component } from './pages/producto9/producto9.component';
 import { Producto10Component } from './pages/producto10/producto10.component';
 import { Producto11Component } from './pages/producto11/producto11.component';
+import { FlogoComponent } from './pages/flogo/flogo.component';
 
 const app_routes: Routes = [
     { path: 'home', component: PortafolioComponent },
@@ -37,6 +38,7 @@ const app_routes: Routes = [
     { path: 'producto9', component: Producto9Component },
     { path: 'producto10', component: Producto10Component },
     { path: 'producto11', component: Producto11Component },
+    { path: 'flogo', component: FlogoComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 

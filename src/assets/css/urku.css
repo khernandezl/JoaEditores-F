@@ -86,7 +86,7 @@ body {
   }
 }
 
-.rk-logo {
+ .rk-logo {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 100%;
       -ms-flex: 0 0 100%;
@@ -94,11 +94,11 @@ body {
   font-size: 1.375rem;
   font-weight: 700;
   letter-spacing: 2.25px;
-  text-align: center;
+  text-align: middle;
   text-transform: none;
   width: 20%;
-  background: image("assets/img/LogoJOA.jpg");
-}
+
+} 
 .rk-logo sup {
   font-size: .5625rem;
   position: relative;
@@ -118,7 +118,7 @@ body {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
           align-self: flex-start;
-  margin-bottom: 3.4rem;
+  
   margin-left: 7.7rem;
   padding-top: .16rem;
   position: relative;
@@ -1976,9 +1976,9 @@ body {
 .rk-menu__item.active {
   color: #a0a0a0;
 }
-.rk-menu__link {
+/* .rk-menu__link {
   padding-bottom: 4.2rem;
-}
+} */
 .rk-menu__sub {
   background-color: white;
   left: 0;
@@ -2146,7 +2146,7 @@ body {
   padding-right: 1.25rem;
   padding-bottom: 1rem;
 }
-.rk-categories-menu .rk-menu__link {
+.rk-categories-menu .rk-menu__link {  
   padding-bottom: .5rem;
 }
 @media (min-width: 64em) {
@@ -2243,3 +2243,6 @@ transition: opacity 400ms ease-in;
 }
 
 .close:hover { background: #c9d1d3; }
+
+
+

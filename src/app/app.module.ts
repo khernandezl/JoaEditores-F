@@ -28,6 +28,7 @@ import { Producto8Component } from './pages/producto8/producto8.component';
 import { Producto9Component } from './pages/producto9/producto9.component';
 import { Producto10Component } from './pages/producto10/producto10.component';
 import { Producto11Component } from './pages/producto11/producto11.component';
+import { FlogoComponent } from './pages/flogo/flogo.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { Producto11Component } from './pages/producto11/producto11.component';
     Producto8Component,
     Producto9Component,
     Producto10Component,
-    Producto11Component
+    Producto11Component,
+    FlogoComponent
   ],
   imports: [
     BrowserModule,
